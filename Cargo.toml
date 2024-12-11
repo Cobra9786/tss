@@ -1,0 +1,9 @@
+[package]
+name = "tss"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+rand = "0.7.3" # Use a compatible version with rand_core 0.5
+threshold_crypto = "0.4.0" # Compatible with rand 0.7
